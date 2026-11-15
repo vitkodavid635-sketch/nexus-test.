@@ -1,1 +1,25 @@
 
+{
+  "schema": 1,
+  "name": "NEXUS Plugins",
+  "description": "Official NEXUS plugin repository",
+  "author": "NEXUS",
+  "plugins": [
+    {
+      "id": "nexus_test",
+      "name": "NEXUS TEST",
+      "description": "Тест установки собственного плагина",
+      "author": "NEXUS",
+      "version": "1.0.0",
+      "icon": "exteraPlugins/1",
+      "app_version": ">=12.5.1",
+      "sdk_version": ">=1.4.4.3",
+      "category": ["tools", "integrations"],
+      "file": "plugins/nexus_test.plugin",
+      "sha256": "43cd9c086a498e7c9c4ec8f92b4cda567c715b71873c70f6a0a2fff5833a8070",
+      "size": 961,
+      "updated_at": "2026-11-16T00:00:00Z"
+    }
+  ]
+}
+
